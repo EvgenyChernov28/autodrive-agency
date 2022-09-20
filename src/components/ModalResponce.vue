@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 .modal-enter-from,
 .modal-leave-to {
   opacity: 0;

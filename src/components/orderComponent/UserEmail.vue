@@ -40,7 +40,7 @@ export default {
           text: "*Обязательное поле",
         });
       } else if (
-        /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(setEmail.value)
+        /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(setEmail.value)
       ) {
         store.commit("order/setErrorMessge", { key: "email", text: "" });
       } else {
@@ -58,5 +58,3 @@ export default {
   },
 };
 </script>
-
-<style scoped lang="scss"></style>

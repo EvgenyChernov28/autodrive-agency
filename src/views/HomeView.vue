@@ -11,7 +11,6 @@ import ButtonsGroup from "@/components/ButtonsGroup.vue";
 import ModalOrder from "@/components/ModalOrder.vue";
 import ModalResponce from "@/components/ModalResponce.vue";
 export default {
-  name: "HomeView",
   components: {
     ButtonsGroup,
     ModalOrder,
